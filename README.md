@@ -29,15 +29,16 @@
 > **codegen-doc**：统一 Skill，匹配论文章节、项目梳理、重点问题、简历项目描述。  
 > **pptgen-drawio**：支持论文答辩与通用汇报两种模式，输出 .drawio 后可用 drawio2pptx 导出 .pptx。
 
-## 开发流程四步法
+## 开发流程五步法
 
 
-| 步骤   | Skill        | 示例 Prompt                     |
-| ---- | ------------ | ----------------------------- |
-| 需求理解 | dev-workflow | 「我想做一个 XXX，帮我整理需求」            |
-| 方案设计 | dev-workflow | 「需求已整理好，帮我做技术方案」「架构设计：前后端分离」  |
-| 代码实现 | dev-workflow | 「按方案开始写代码」「实现用户登录模块」          |
-| 代码审查 | dev-workflow | 「帮我审查这段代码」「PR review，按团队规范检查」 |
+| 步骤      | Skill        | 示例 Prompt                                  |
+| ------- | ------------ | ------------------------------------------ |
+| 需求理解    | dev-workflow | 「我想做一个 XXX，帮我整理需求」                         |
+| 方案设计    | dev-workflow | 「需求已整理好，帮我做技术方案」「架构设计：前后端分离」               |
+| 代码实现    | dev-workflow | 「按方案开始写代码」「实现用户登录模块」                       |
+| 代码审查    | dev-workflow | 「帮我审查这段代码」「PR review，按团队规范检查」              |
+| Bug 修复  | dev-workflow | 「这里报错了：xxx」「功能跑不通，帮我修」「测试挂了，看看怎么回事」        |
 
 
 > **dev-workflow**：统一 Skill，根据用户表述自动匹配 requirement/design/implementation/review 四步之一。
