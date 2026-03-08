@@ -78,4 +78,3 @@ description: 生成高质量 Markdown 周报、工作汇报、总结、介绍等
 ## 七、参考资源
 
 - 模板文件：[reference/templates.md](reference/templates.md)
-
